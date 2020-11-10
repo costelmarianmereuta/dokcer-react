@@ -11,6 +11,7 @@ deploy:
     region: "us-east-2"    
     app: "docker-react" 
     env: "DockerReact-env"
+        - YARN_GPG=no
     bucket_name: elasticbeanstalk-us-east-2-574048718476
     #should be the same like the app name
     bucket_path: "docker-react"
